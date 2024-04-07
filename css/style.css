@@ -617,14 +617,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
-  pointer-events:none ;
+  /* opacity: 0;
+  pointer-events:none ; */
 
 }
-.modal-overley.is-open{
+/* .modal-overley.is-open{
   opacity: 1;
   pointer-events:auto;
-}
+} */
 .modal {
   display: flex;
   background-color: #fcfcfc;
