@@ -796,7 +796,8 @@ display: block;
 }
 .button-icon-close:hover{
   background-color: #404bbf; 
-   border: none; 
+  border: none;
+  fill: #ffffff; 
 }
 .button-icon-close:focus{
   background-color: #404bbf; 
