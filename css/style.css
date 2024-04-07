@@ -810,7 +810,7 @@ display: block;
 .icon-name-close:hover{
   fill: #ffffff;
 }
-.icon-name-close:focus
+.icon-name-close:focus{
   fill: #ffffff;
 }
 /* --------------chekbox--------------- */
