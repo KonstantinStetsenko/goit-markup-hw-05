@@ -659,6 +659,7 @@ body {
   padding-left: 38px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+
 }
 /* --------------Стили при наведении------------------ */
 .input-form:focus-within {
@@ -668,7 +669,7 @@ body {
 }
 
 .form-label {
-  /* display: flex;
+ /* display: flex;  */
   flex-direction: column; */
   font-weight: 400;
   font-size: 12px;
