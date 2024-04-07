@@ -616,52 +616,121 @@
             </li>
           </ul>
         </div>
+        <div class="conteiner-forma-futer">
+          <p class="text-subscribe-futer">Subscribe</p>
+
+         <div class="block-send-futer">
+            <label for="E-mail-futer" class="e-mail-futer"></label>
+            <input type="email" id="E-mail-futer" class="input-futer" placeholder="E-mail">
+            <button class="button-futer">Subscribe
+              <svg class="icon-futer" width="24" height="20">
+  <use href="/images/iconform.svg#icon-fly" width="24" height="20"></use>
+              </svg>
+            </button>
+         </div>
+        </div>
       </div>
     </footer>
     <div class="modal-overley">
       <div class="modal">
-        <p class="name-form">Leave your contacts and we will call you back</p>
-        <!-- 
-        <div class="conteiner-form"> -->
+        <button class="button-icon-close">
+          <svg class="icon-name-close" width="8" height="8">
+            <use
+              href="./images/iconform.svg#icon-close" class="icon-fly-futer"
+              width="8"
+              height="8"
+            ></use>
+          </svg>
+        </button>
+        <div class="conteiner-form">
+
+        <h2 class="name-form">Leave your contacts and we will call you back</h2>
+
         <form action="" class="form-conteiner">
-          <fieldset class="form-text">
-            <label for="Name" class="form-label">
-              Name
+          <label for="Name" class="form-label">
+            Name
+
+            <div class="conteiner-input">
               <input type="text" id="Name" class="input-form" />
-            </label>
 
-            <label for="Phone" class="form-label">
-              Phone
-              <input type="tel" id="Phone" class="input-form" />
-            </label>
-
-            <label for="Email" class="form-label">
-              Email
-              <input type="email" id="Email" class="input-form" />
-            </label>
-
-            <label for="Comment" class="form-label">
-              Comment
-              <textarea
-                type="text"
-                id="Comment"
-                class="input-form input-coment"
-                placeholder="Text input"
-              >
-              </textarea>
-            </label>
-          </fieldset>
-
-          <label for="Policy" class="text-policy"
-            ><input type="checkbox" name=" Privacy Policy" />
-            <p class="text-p">
-              I accept the terms and conditions of the
-              <a href="" class="link-polycity">Privacy Policy</a>
-            </p>
+              <svg class="icon-name">
+                <use
+                  class="icon-name-svg"
+                  href="./images/iconform.svg#icon-person"
+                  width="18"
+                  height="18"
+                ></use>
+              </svg>
+            </div>
           </label>
-          <button class="button-form">Send</button>
+
+          <label for="Phone" class="form-label">
+            Phone
+            <div class="conteiner-input">
+              <input type="tel" id="Phone" class="input-form" /><svg
+                class="icon-name"
+              >
+                <use
+                  class="icon-name1"
+                  href="./images/iconform.svg#icon-Phone"
+                  width="18"
+                  height="18"
+                ></use>
+              </svg>
+            </div>
+          </label>
+
+          <label for="Email" class="form-label">
+            Email
+            <div class="conteiner-input">
+              <input type="email" id="Email" class="input-form" /><svg
+                class="icon-name"
+              >
+                <use
+                  class="icon-name1"
+                  href="./images/iconform.svg#icon-Email"
+                  width="18"
+                  height="18"
+                ></use>
+              </svg>
+            </div>
+          </label>
+
+          <label for="Comment" class="form-label form-labe-coment">
+            Comment
+            <textarea
+              type="text"
+              id="Comment"
+              class="input-coment"
+              placeholder="Text input"
+            >
+            </textarea>
+          </label>
+
+       <div class="conteiner-chekbox">
+        <input type="checkbox" name=" Privacy-Policy" id="Policy" class="formcheck visually-hidden"/>
+            <label for="Policy" class="text-policy">
+            <!-- <div class="conteiner-chekbox"> -->
+                   <span class="form-chekbox">
+                    <svg
+                  class="icon-check" height="10" width="10"
+                >
+                  <use
+                    class="icon-name1"
+                    href="./images/iconform.svg#icon-chek"
+                    width="10"
+                    height="10"
+                  ></use>
+                </svg>
+                   </span>
+                 
+          
+            <!-- </div> -->
+            </label>
+            <span class="text-pryvacy-polycy"> I accept the terms and conditions of the  <a href="" class="link-polycity">Privacy Policy</a></span>
+       </div>
+          <button type="submit" class="button-form">Send</button>
         </form>
-        <!-- </div> -->
       </div>
     </div>
   </body>
