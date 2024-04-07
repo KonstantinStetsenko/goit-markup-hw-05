@@ -692,6 +692,10 @@ body {
   align-items: center;
   gap: 8px;
 }
+
+.conteiner-form{
+  margin-bottom: 8px; 
+}
 .input-coment {
   display: flex;
   height: 120px;
