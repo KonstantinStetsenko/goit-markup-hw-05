@@ -786,6 +786,10 @@ display: block;
   top: 50%;
   transform: translateY(-50%);
 }
+/* ----------контейнер коментарий----------- */
+.conteiner-coment{
+margin-bottom: 16px;
+}
 /* ------------------кнопка close---------------- */
 .button-icon-close {
   
