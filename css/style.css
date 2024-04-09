@@ -855,12 +855,12 @@ margin-bottom: 16px;
   position: relative;
   fill: transparent;
 }
-/* .conteiner-chekbox {
+.conteiner-chekbox {
   display: flex;
  margin-bottom: 24px; 
 
  
-} */
+}
 .text-pryvacy-polycy{
   display: inline-flex;
   align-items: center;
