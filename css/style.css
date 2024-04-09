@@ -768,15 +768,15 @@ transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* height: 18px;
   width: 18px; */
   fill: #2e2f42;
- transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
 }
 .input-form:focus + .icon-name {
   fill: #4d5ae5;
-  transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .icon-name-svg{
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
   
 }
 
@@ -785,13 +785,14 @@ display: block;
   position: relative;
   background-color: transparent; 
   outline: transparent; 
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 .conteiner-input .icon-name {
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ----------контейнер коментарий----------- */
 .conteiner-coment{
