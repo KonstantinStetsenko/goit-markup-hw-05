@@ -846,7 +846,7 @@ margin-bottom: 16px;
 }
 .form-chekbox{
   position: relative;
-display: inline-flex;
+/* display: inline-flex; */
   align-items: center;
   justify-content: center; 
   font-weight: 400;
@@ -858,9 +858,10 @@ display: inline-flex;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   fill: transparent;
+  fill: transparent;
 }
 .icon-check {
+  display: inline-flex;
   position: absolute;
   top: 50%;
   left: 50%;
