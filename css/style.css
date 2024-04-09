@@ -881,9 +881,7 @@ display: inline-flex;
   /* fill: transparent; */
   cursor: pointer;
 }
-.formcheck:checked {
- background-color: #404bbf;
-}
+
 .formcheck:checked + .text-policy .form-chekbox {
   background-color: #404bbf;
   fill: #f4f4fd;
