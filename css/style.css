@@ -862,7 +862,7 @@ margin-bottom: 16px;
  
 }
 .text-pryvacy-polycy{
-  display: inline-flex;
+display: inline-flex;
   align-items: center;
   justify-content: center; 
   font-weight: 400;
