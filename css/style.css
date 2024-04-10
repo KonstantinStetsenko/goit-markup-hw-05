@@ -893,6 +893,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.04em;
+min-width: 165px;
 text-align: center;
 color:white;
 height: 40px; 
