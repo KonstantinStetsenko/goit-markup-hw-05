@@ -717,12 +717,13 @@ display: block;
 }
 
 .text-policy {
- 
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
   letter-spacing: 0.04em;
   color: #8e8f99;
+ 
+
  
 }
 .link-polycity {
@@ -842,6 +843,8 @@ margin-bottom: 16px;
 .conteiner-chekbox {
   display: flex;
  margin-bottom: 24px; 
+ align-items: center;
+justify-content: center;
 
  
 }
