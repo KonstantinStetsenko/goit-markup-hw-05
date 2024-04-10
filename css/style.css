@@ -871,11 +871,15 @@ display: inline-flex;
 }
 
 .formcheck:checked + .text-policy .form-chekbox {
+  display: block;
   background-color: #404bbf;
   fill: #f4f4fd;
   cursor: pointer;
  border: none; 
 }
+ /* .text-policy {
+  display: block;
+ } */
 /* -------------кнопка send---------------- */
 
 
