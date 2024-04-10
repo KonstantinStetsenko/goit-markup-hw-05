@@ -877,12 +877,13 @@ display: inline-flex;
   cursor: pointer;
  border: none; 
 }
---------кнопка send---------------- */
+/*--------кнопка send---------------- */
 
 
 /* -----------------блок отправки в футере------------------------ */
 .button-futer{
 display: flex;
+
 border-radius: 4px;
 padding: 8px 24px;
 background-color:  #4d5ae5;
